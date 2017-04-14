@@ -25,8 +25,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -36,7 +36,7 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -54,35 +54,35 @@ body {
 	background-color: #111;
 }
 body.home {
-	background: url('../img/homepage-background.jpg');
+	background: url('img/homepage-background.jpg');
 	background-size: cover;
 	background-attachment: fixed;
 	background-position: top center;
 	background-color: #111;
 }
 body.beerlist {
-	background: url('../img/beerlist-background.jpg');
+	background: url('img/beerlist-background.jpg');
 	background-size: cover;
 	background-attachment: fixed;
 	background-position: top center;
 	background-color: #111;
 }
 body.about {
-	background: url('../img/about-background.jpg');
+	background: url('img/about-background.jpg');
 	background-size: cover;
 	background-attachment: fixed;
 	background-position: top center;
 	background-color: #111;
 }
 body.taproom {
-	background: url('../img/taproom-background.jpg');
+	background: url('img/taproom-background.jpg');
 	background-size: cover;
 	background-attachment: fixed;
 	background-position: top center;
 	background-color: #111;
 }
 body.contact {
-	background: url('../img/contact-background.jpg');
+	background: url('img/contact-background.jpg');
 	background-size: cover;
 	background-attachment: fixed;
 	background-position: top center;
@@ -90,7 +90,7 @@ body.contact {
 }
 p {
 	font-size: 1em;
-	line-height: 1.25em;	
+	line-height: 1.25em;
 	margin-bottom: 1em;
 }
 ol, ul {
@@ -120,7 +120,7 @@ h1, h2, h3 {
 	font-family: 'Alegreya SC', sans-serif;
 	margin: 0 0 .5em 0;
 }
-h1 {	
+h1 {
 	font-size: 2.5em;
 	margin: 0 0 .25em 0;
 }
@@ -138,7 +138,7 @@ h3 {
 	max-width: 980px;
 	margin: 0 auto;
 	background: rgba(0,0,0,.85);
-	padding-top: 150px;	
+	padding-top: 150px;
 }
 .content {
 	width: 100%;
@@ -150,7 +150,7 @@ h3 {
 	box-sizing: border-box;
 }
 .row {
-	width: 100%;	
+	width: 100%;
 }
 .row:before, .row:after {
 	clear: both;
@@ -196,7 +196,7 @@ h3 {
 	max-width: 735px;
 }
 .pad-20 {
-	padding: 20px;	
+	padding: 20px;
 }
 .orange {
 	color: #f29b4e;
@@ -237,16 +237,16 @@ nav {
 	transition: background .2s ease;
 }
 nav a {
-	color: #310000;	
+	color: #310000;
 	text-decoration: none;
 	margin: 0 20px;
 	transition: color .3s linear;
 }
 nav a.active {
-	color: #f3eded !important;	
+	color: #f3eded !important;
 }
 .cta {
-	text-align: center;	
+	text-align: center;
 }
 .cta a {
 	display: inline-block;
@@ -277,14 +277,14 @@ nav a.active {
 	font-size: 1.7em;
 	letter-spacing: .1em;
 	width: 100%;
-	background: url('../img/metal.jpg') no-repeat;
+	background: url('img/metal.jpg') no-repeat;
 	background-size: cover;
 	margin-bottom: 30px;
 	z-index: 10 !important;
 }
 .beer-list li {
 	box-sizing: border-box;
-	padding: 5px 50px;	
+	padding: 5px 50px;
 	border-bottom: 1px solid rgba(243,237,237,.07);
 	border-top: 2px solid #000;
 }
@@ -305,7 +305,7 @@ nav a.active {
 	left: 0px;
 	opacity: 0;
 	width: 100%;
-	background: url('../img/metal.jpg') no-repeat;
+	background: url('img/metal.jpg') no-repeat;
 	background-size: cover;
 	padding: 20px;
 	border-top: 1px solid #f3eded;
@@ -365,7 +365,7 @@ nav a.active {
 }
 #close-beer::before {
 	content: '';
-	display: block;	
+	display: block;
 	transform: rotate(-45deg);
 	position: relative;
 	top: 8px;
@@ -376,7 +376,7 @@ nav a.active {
 }
 #close-beer::after {
 	content: '';
-	display: block;	
+	display: block;
 	transform: rotate(45deg);
 	position: relative;
 	top: 6px;
@@ -390,7 +390,7 @@ nav a.active {
 	box-sizing: border-box;
 }
 .beer-list .beer-head {
-	font-size: .75em !important;	
+	font-size: .75em !important;
 	color: #ccc;
 }
 .beer-head h1 {
@@ -424,10 +424,10 @@ nav a.active {
 }
 .res-image {
 	width: 100%;
-	max-width: inherit;	
+	max-width: inherit;
 }
 .featured-beer {
-	border: 3px solid #f3eded;	
+	border: 3px solid #f3eded;
 }
 .bio {
 	border: 3px solid #f3eded;
@@ -442,21 +442,21 @@ nav a.active {
 footer {
 	min-height: 200px;
 	padding-top: 60px;
-	background: url('../img/gear.png') bottom left no-repeat;
+	background: url('img/gear.png') bottom left no-repeat;
 }
 footer li {
 	line-height: 1.5em;
 }
 footer li span {
-	padding: 0 0 0 1em;	
+	padding: 0 0 0 1em;
 }
 .white {
-	color: #f3eded;	
+	color: #f3eded;
 }
 #map p {
 	text-align: right;
 	line-height: 1.6em !important;
-	font-size: .813em;	
+	font-size: .813em;
 }
 #map a {
 	color: #f3eded;
@@ -478,7 +478,7 @@ footer li span {
 	border: 1px solid #f3eded;
 }
 #line1, #line2, #line3 {
-	position: absolute;	
+	position: absolute;
 	display: block;
 	width: 30px;
 	height: 4px;
@@ -548,7 +548,7 @@ footer li span {
 	text-decoration: none;
 	letter-spacing: .1em;
 	float: right;
-	width: 28%;	
+	width: 28%;
 	padding: 10px;
 	box-sizing: border-box;
 	cursor: pointer;
@@ -563,12 +563,12 @@ footer li span {
 	text-align: center;
 	padding: 1em;
 }
-::-webkit-input-placeholder { 
+::-webkit-input-placeholder {
 	font-family: 'Griffin', sans-serif;
 	font-size: 1.375em;
 	color: #1b0000;
 }
-::-moz-placeholder { 
+::-moz-placeholder {
 	font-family: 'Griffin', sans-serif;
 	font-size: 1.375em;
 	color: #1b0000;
@@ -578,7 +578,7 @@ footer li span {
 	font-size: 1.375em;
 	color: #1b0000;
 }
-:-moz-placeholder { 
+:-moz-placeholder {
 	font-family: 'Griffin', sans-serif;
 	font-size: 1.375em;
 	color: #1b0000;
@@ -635,14 +635,14 @@ button {
 	border-radius: 0px !important;
 }
 #beerlist-stripe {
-	background-image: url('../img/beer-flight.jpg');
+	background-image: url('img/beer-flight.jpg');
 }
 #taproom-stripe {
-	background-image: url('../img/growlers.jpg');
+	background-image: url('img/growlers.jpg');
 }
 #beerlist-stripe, #taproom-stripe {
 	width: 100%;
-	height: 250px;	
+	height: 250px;
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -652,7 +652,7 @@ b {
 	font-family: 'Alegreya SC', serif;
 	font-size: 1.25em;
 	letter-spacing: .1em;
-	margin: .5em 0;	
+	margin: .5em 0;
 }
 i {
 	font-style: italic;
@@ -680,7 +680,7 @@ strong {
 	margin: 0 auto;
 }
 .grecaptcha-badge {
-	display: none !important;	
+	display: none !important;
 }
 #social {
 	margin: 2em 0 0 0;
@@ -689,13 +689,13 @@ strong {
 	display: inline-block;
 }
 #facebook {
-	background: url('../img/icon-facebook.png') no-repeat;
+	background: url('img/icon-facebook.png') no-repeat;
 }
 #instagram {
-	background: url('../img/icon-instagram.png') no-repeat;
+	background: url('img/icon-instagram.png') no-repeat;
 }
 #twitter {
-	background: url('../img/icon-twitter.png') no-repeat;
+	background: url('img/icon-twitter.png') no-repeat;
 }
 #facebook, #instagram, #twitter {
 	display: inline-block;
@@ -712,7 +712,7 @@ strong {
 		color: #f3eded;
 	}
 	nav a:hover {
-		color: #f3eded !important;	
+		color: #f3eded !important;
 	}
 	.cta a:hover {
 		background: #94201a;
@@ -724,7 +724,7 @@ strong {
 		color: #f3eded;
 	}
 	#close-beer:hover {
-		border: 1px solid #c62f27;	
+		border: 1px solid #c62f27;
 	}
 	#close-beer:hover::before, #close-beer:hover::after {
 		background: #c62f27;
@@ -743,12 +743,12 @@ strong {
 	}
 	#social a:hover {
 		opacity: .8;
-	} 
+	}
 }
 
 /* Large Screen Dimensions */
 @media (min-width: 768px) and (max-width: 1070px) {
-	
+
 }
 
 /* Medium Screen Dimensions */
@@ -764,7 +764,7 @@ strong {
 	.col-4 {
 		width: 50%;
 		max-width: 384px;
-	}	
+	}
 	.col-6 {
 		width: 33.33333333333%;
 		max-width: 256px;
@@ -777,7 +777,7 @@ strong {
 		top: -10px;
 	}
 	#menu {
-		display: block;	
+		display: block;
 		float: right;
 		top: -8px;
 		right: 20px;
@@ -847,7 +847,7 @@ strong {
 		text-decoration: none;
 		letter-spacing: .1em;
 		float: none;
-		width: 100%;	
+		width: 100%;
 		padding: 10px;
 		box-sizing: border-box;
 		cursor: pointer;
@@ -867,7 +867,7 @@ strong {
 		margin: .2em 0;
 	}
 	#taproom-stripe {
-		background-attachment: inherit !important;	
+		background-attachment: inherit !important;
 	}
 	.max-60 {
 		width: 60% !important;
