@@ -1,3 +1,14 @@
+
+/* 
+
+Theme Name: Web 170 Flying Lion Brewing Wordpress
+Theme URI: https://github.com/fncreative/web170
+Author: Dann Frey
+Author URI: https://fncreative.design
+Description: This is the theme that will be used for Flying Lion Brewing Webv 170 Project.
+Version: One Point Two
+*/
+
 @charset "UTF-8";
 @font-face {
     font-family: 'Griffin';
@@ -6,6 +17,16 @@
     font-weight: normal;
     font-style: normal;
 }
+
+@font-face {
+    font-family: 'griffinhandwritingmedium';
+    src: url('griffinhandwriting-webfont.woff2') format('woff2'),
+         url('griffinhandwriting-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 input, button {
 	-webkit-appearance: none;
 	-moz-appearance: none;
@@ -74,7 +95,7 @@ body.about {
 	background-position: top center;
 	background-color: #111;
 }
-body.taproom {
+body.home {
 	background: url('img/taproom-background.jpg');
 	background-size: cover;
 	background-attachment: fixed;
