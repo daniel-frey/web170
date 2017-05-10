@@ -10,4 +10,10 @@ Description: This is the theme that will be used for Flying Lion Brewing Webv 17
 Version: One Point Two
 */
 
+// register menu locations
+register_nav_menus(array('main-menu' => __('Main Menu'), 'footer-menu' => __('Footer Menu')));
+//
+
+
+
 ?>

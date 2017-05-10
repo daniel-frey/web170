@@ -263,7 +263,7 @@ nav a {
 	margin: 0 20px;
 	transition: color .3s linear;
 }
-nav a.active {
+nav li.current-menu-item a {
 	color: #f3eded !important;
 }
 .cta {
@@ -767,6 +767,41 @@ strong {
 	}
 }
 
+.sub-menu {
+    display: none;
+    position: absolute;
+    top: 59px;
+    left: 0px;
+    text-align: left;
+    background-color: #c62f27;
+    padding: 10px 0;
+}
+
+.menu li {
+    display: block;
+    float:left;
+    position: relative;
+    padding: 18px 0px 18px 0px;
+}
+
+.menu li:hover ul { 
+    display: block;
+}
+
+.menu {
+    position: relative;
+    top: -18px;
+    right: -66px;
+}
+
+.sub-menu a {
+    margin: 0px;
+}
+
+.sub-menu li {
+    float: none;
+    padding: 5px 20px;
+}
 /* Large Screen Dimensions */
 @media (min-width: 768px) and (max-width: 1070px) {
 
