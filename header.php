@@ -7,8 +7,7 @@
 	<title><?php bloginfo('description'); ?> | <?php bloginfo('name'); ?></title>
 	<link rel="shortcut icon" href="https://flyinglionbrewing.com/img/favicon.png" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css?family=Alegreya+SC:700|Muli" rel="stylesheet">
-		<link rel="stylesheet" href="stylesheet.css"/>
-		<link rel="stylesheet" href="<?php bloginfo('stylesheet_url');?>" type="text/css" media="all" />
+    <link rel="stylesheet" href="<?php bloginfo('stylesheet_url');?>" type="text/css" media="all" />
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 	<script type="text/javascript" src="<?php bloginfo('template_directory');?>/js/main.js"></script>
 <!-- begin wp head -->

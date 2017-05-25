@@ -4,7 +4,7 @@
 <?php endwhile; endif; ?>
 <div class ="row">
     <div class="column">
-        <div class="col col-1 pad-20">
+        <div class="col col-2-3 pad-20">
         <?php
             $args = array('numberposts' => '4');
             $recent_posts = wp_get_recent_posts($args);
@@ -14,7 +14,10 @@
             ?>
         </div>
         
-    </div>
+<div class ="col col-3 pad-20">
+<?php get_sidebar(); ?>
 </div>
+    </div>
+    </div>
 front-page.php
 <?php get_footer(); ?>

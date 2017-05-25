@@ -74,36 +74,50 @@ body {
 	min-height: 100%;
 	background-color: #111;
 }
-body.home {
+body.page-template-default {
 	background: url('img/homepage-background.jpg');
 	background-size: cover;
 	background-attachment: fixed;
 	background-position: top center;
 	background-color: #111;
 }
-body.beerlist {
+body.page-id-85 {
+	background: url('img/homepage-background.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: top center;
+	background-color: #111;
+}
+body.page-id-10 {
 	background: url('img/beerlist-background.jpg');
 	background-size: cover;
 	background-attachment: fixed;
 	background-position: top center;
 	background-color: #111;
 }
-body.about {
+body.page-id-45 {
 	background: url('img/about-background.jpg');
 	background-size: cover;
 	background-attachment: fixed;
 	background-position: top center;
 	background-color: #111;
 }
-body.home {
+body.page-id-25 {
 	background: url('img/taproom-background.jpg');
 	background-size: cover;
 	background-attachment: fixed;
 	background-position: top center;
 	background-color: #111;
 }
-body.contact {
+body.page-id-14 {
 	background: url('img/contact-background.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: top center;
+	background-color: #111;
+}
+body.blog {
+	background: url('img/taproom-background.jpg');
 	background-size: cover;
 	background-attachment: fixed;
 	background-position: top center;
@@ -129,8 +143,9 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-img {
+ img {
 	width: 100%;
+    height: auto;
 }
 #content a {
 	color: #c62f27;
@@ -156,14 +171,14 @@ h3 {
 }
 #content {
 	width: 100%;
-	max-width: 980px;
+	max-width: 1020px;
 	margin: 0 auto;
 	background: rgba(0,0,0,.85);
 	padding-top: 150px;
 }
 .content {
 	width: 100%;
-	max-width: 980px;
+	max-width: 1020px;
 	margin: 0 auto;
 	background: rgba(0,0,0,.85);
 }
@@ -181,7 +196,7 @@ h3 {
 }
 .column {
 	width: 100%;
-	max-width: 980px;
+	max-width: 1020px;
 	margin: 0 auto;
 }
 .col {
@@ -190,19 +205,19 @@ h3 {
 }
 .col-1 {
 	width: 100%;
-	max-width: 980px;
+	max-width: 1020px;
 }
 .col-2 {
 	width: 50%;
-	max-width: 490px;
+	max-width: 510px;
 }
 .col-3 {
 	width: 33.33333333333%;
-	max-width: 326px;
+	max-width: 336px;
 }
 .col-4 {
 	width: 25%;
-	max-width: 245px;
+	max-width: 255px;
 }
 .col-6 {
 	width: 16.66666666667%;
@@ -210,7 +225,7 @@ h3 {
 }
 .col-2-3 {
 	width: 66.66666666667%;
-	max-width: 652px;
+	max-width: 672px;
 }
 .col-3-4 {
 	width: 75%;
@@ -218,6 +233,9 @@ h3 {
 }
 .pad-20 {
 	padding: 20px;
+}
+.pad-10 {
+    padding: 10px;
 }
 .orange {
 	color: #f29b4e;
@@ -388,6 +406,12 @@ nav li.current-menu-item li a:hover {
 	font-size: 1.25em;
 	margin: 1em 0 0 0;
 }
+
+span.beer-details {
+    font-family: 'Griffin', sans-serif !important;
+    font-size: 1em;
+}
+
 #holder .beer-item-details b {
 	font-weight: bold;
 	display: inline;
@@ -430,6 +454,7 @@ nav li.current-menu-item li a:hover {
 	padding: 10px;
 	box-sizing: border-box;
 }
+
 .beer-list .beer-head {
 	font-size: .75em !important;
 	color: #ccc;
@@ -447,6 +472,8 @@ nav li.current-menu-item li a:hover {
 	float: right;
 	color: #83def1;
 	font-size: .75em;
+    font-family: 'Griffin', sans-serif !important;
+    font-size: 1em;
 }
 .on-deck-beers {
 	width: 70%;
@@ -476,7 +503,7 @@ nav li.current-menu-item li a:hover {
 }
 #spread {
 	width: 100%;
-	max-width: 980px;
+	max-width: 1020px;
 	margin: 0 auto;
 	background: rgba(0,0,0,.85);
 }
@@ -629,15 +656,15 @@ footer li span {
 	text-align: center;
 	font-size: 1.2em;
 }
-#contact-form {
+.wpcf7-form {
 	padding: 10px;
 	background: #000;
 }
-#contact-form label {
+.wpcf7-form label {
 	display: block;
 	margin: .35em 0 .35em 0;
 }
-#contact-form input[type="text"], #contact-form input[type="email"], #contact-form textarea {
+.wpcf7-form input[type="text"], .wpcf7-form input[type="email"], .wpcf7-form-control.wpcf7-textarea {
 	margin-bottom: 1em;
 	border: 1px solid #f3eded;
 	outline: none;
@@ -650,7 +677,7 @@ footer li span {
 	color: #f3eded;
 	text-align: center;
 }
-#contact-form textarea {
+.wpcf7-form textarea {
 	height: 180px;
 }
 .radio-buttons {
@@ -659,7 +686,7 @@ footer li span {
 .radio-buttons label {
 	display: inline-block !important;
 }
-button {
+.wpcf7-submit {
 	border: none;
 	outline: none;
 	background: #c62f27;
@@ -674,6 +701,10 @@ button {
 	cursor: pointer;
 	transition: background .2s ease;
 	border-radius: 0px !important;
+}
+.wpcf7-list-item {
+    display: block !important;
+    margin: 0px !important;
 }
 #beerlist-stripe {
 	background-image: url('img/beer-flight.jpg');
@@ -706,7 +737,7 @@ strong {
 }
 .event {
 	padding-top: 1em;
-	border-top: 1px solid #f3eded;
+    font-size: 1em;
 }
 .date-location {
 	font-size: .813em;
@@ -887,6 +918,7 @@ strong {
 		padding: 5px 20px;
 	}
 	.beer-details {
+        font-family: 'Griffin', sans-serif !important;
 		display: inline-block;
 		max-width: 80%;
 	}
