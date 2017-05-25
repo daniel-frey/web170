@@ -13,6 +13,9 @@ Version: One Point Two
 // register menu locations
 register_nav_menus(array('main-menu' => __('Main Menu'), 'footer-menu' => __('Footer Menu')));
 //
+// Add theme support for post thumbnails & featured images
+add_theme_support('post-thumbnails');
+//
 function flb_list_child_pages(){
     global $post;
     if(is_page() && $post->post_parent){
