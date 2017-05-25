@@ -27,12 +27,12 @@ $(window).on('load', function() {
 		if (cl=="ex") {
 			mb.classList.remove("ex");
 			mb.classList.add("hamburger");
-			nav.classList.remove("overlay");
+			n.classList.remove("overlay");
 		}
 		else {
 			mb.classList.remove("hamburger");
 			mb.classList.add("ex");
-			nav.classList.add("overlay");
+			n.classList.add("overlay");
 		}
 	}
 	
