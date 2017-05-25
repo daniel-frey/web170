@@ -1,4 +1,3 @@
-
 /* 
 
 Theme Name: Web 170 Flying Lion Brewing Wordpress
@@ -229,7 +228,7 @@ h3 {
 }
 .col-3-4 {
 	width: 75%;
-	max-width: 735px;
+	max-width: 765px;
 }
 .pad-20 {
 	padding: 20px;
@@ -605,6 +604,7 @@ footer li span {
 	box-sizing: border-box;
 	text-align: center;
 	border-radius: 0px !important;
+    height: 40px;
 }
 #newsletter-signup input[type=submit] {
 	border: none;
@@ -738,6 +738,7 @@ strong {
 .event {
 	padding-top: 1em;
     font-size: 1em;
+    border-top: 1px solid #f3eded;
 }
 .date-location {
 	font-size: .813em;
@@ -853,6 +854,14 @@ strong {
     float: none;
     padding: 5px 20px;
 }
+
+.wrap-image {
+	float: right;
+	margin: 0 0 20px 20px;
+	width: 100%;
+	max-width: 340px;
+}
+
 /* Large Screen Dimensions */
 @media (min-width: 768px) and (max-width: 1070px) {
 
@@ -983,6 +992,21 @@ strong {
 	#spread {
 		display: none !important;
 	}
+	.wrap-image {
+		float: none;
+		margin: 0 auto 20px auto;
+		width: 100%;
+		max-width: 500px;
+	}
+    .menu li {
+        float: none;
+        position: relative;
+        padding: 0px;
+    }
+    .menu {
+        top: 0px;
+        right: 0px;
+    }
 }
 
 /* Small Screen Dimensions */
@@ -1030,6 +1054,12 @@ strong {
 	}
 	.home-beer-list-head {
 		font-size: .75em !important;
+	}
+	.wrap-image {
+		float: none;
+		margin: 0 0 20px 0;
+		width: 100%;
+		max-width: 100%;
 	}
 }
 /* Extra Small Screen Dimensions */
