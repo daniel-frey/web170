@@ -358,6 +358,11 @@ nav li.current-menu-item li a:hover {
 	font-size: .5em;
 	font-family: 'Muli', sans-serif !important;
 }
+.quote {
+    font-family: 'Griffin', sans-serif;
+    padding-bottom: 10px;
+    font-size: 2em;
+}
 #holder {
 	position: absolute;
 	left: 0px;

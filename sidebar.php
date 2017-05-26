@@ -1,3 +1,8 @@
+<div class='quote' id='pull'>
+<?php if (get_post_meta($post->ID, 'Quote', true)) : ?>
+<blockquote><?php echo get_post_meta($post->ID, 'Quote', true); ?></blockquote>
+<?php endif; ?>
+</div>
 <h2>Events at the Lion</h2>
 <div id="newsletter-signup">
     <form name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
