@@ -16,6 +16,14 @@ register_nav_menus(array('main-menu' => __('Main Menu'), 'footer-menu' => __('Fo
 // Add theme support for post thumbnails & featured images
 add_theme_support('post-thumbnails');
 //
+// regisger the sidebar widget
+register_sidebar(array(
+    'before_widget' => '<div id="%1$s" class="widget %2$s">',
+    'after_widget' => '</div>',
+    'before_title' => '<h2>',
+    'after_title' => '</h2>'
+));
+
 function flb_list_child_pages(){
     global $post;
     if(is_page() && $post->post_parent){

@@ -3,21 +3,7 @@
 <blockquote><?php echo get_post_meta($post->ID, 'Quote', true); ?></blockquote>
 <?php endif; ?>
 </div>
-<h2>Events at the Lion</h2>
-<div id="newsletter-signup">
-    <form name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-        <div id="mc_embed_signup_scroll">
-            <input type="email" value="" name="EMAIL" placeholder="Subscribe!" class="required email" id="mce-EMAIL">
-            <input type="submit" value="Sign up" name="subscribe" id="mc-embedded-subscribe" class="button">
-            <div id="mce-responses" class="clear">
-                <div class="response" id="mce-error-response" style="display:none"></div>
-                <div class="response" id="mce-success-response" style="display:none"></div>
-            </div>
-            <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-            <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_a75b85c29aabfa727fe3c4c32_ce11cb1e2c" tabindex="-1" value=""></div>
-        </div>
-    </form>
-</div>
+<?php dynamic_sidebar(1); ?>
 <div class="event">
     <p><strong>Brewshed® Beer Fest</strong></p>
     <p class="date-location">
