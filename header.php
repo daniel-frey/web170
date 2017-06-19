@@ -1,14 +1,10 @@
 <!DOCTYPE html>
 <html>
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
-    <title>
-        <?php bloginfo('description'); ?> |
-        <?php bloginfo('name'); ?>
-    </title>
+    <title><?php get_my_title_tag(); ?></title>
     <link rel="shortcut icon" href="https://flyinglionbrewing.com/img/favicon.png" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css?family=Alegreya+SC:700|Muli" rel="stylesheet">
     <link rel="stylesheet" href="<?php bloginfo('stylesheet_url');?>" type="text/css" media="all" />
@@ -18,7 +14,6 @@
     <?php wp_head(); ?>
     <!-- end wp head -->
 </head>
-
 <body <?php body_class(); ?>>
     <header class="row" id="header">
         <div class="row">
